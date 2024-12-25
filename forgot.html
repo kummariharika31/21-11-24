@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <center>
+            <form action="./passwordreset.html" method ="get">
+                <input type="text" id="user name" placeholder="user name" required/>
+                <br>
+                <br>
+                <input type="text" id="password" placeholder="password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[\d])(?=.*[!@#$%&]).{8,16}" title="pattern should contain atleast one small letter one capital letter one digit and any one of given symbols : !@#$%&" required/>
+                <br>
+                <br>
+                <input type="text" id="OTP" placeholder="OTP" required/>
+                <P>Your otp is 1234</P>
+                <input type="submit" id="newpassword" value="newpassword"/>
+            </form>
+        </center>
+    </fieldset>
+    
+</body>
+</html>

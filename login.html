@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <fieldset>
+            <form action="./loginsuccess.html" method="get">
+                <input type="text" name="user name" id="user name" placeholder="user name" required/>
+                <br>
+                <br>
+                <input type="text" name="password" id="password" placeholder="password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[\d])(?=.*[!@#$%&]).{8,16}" title="pattern should contain atleast one small letter one capital letter one digit and any one of given symbols : !@#$%&" required/>
+                <br>
+                <br>
+                <input type="submit" name="login" value="login"/>
+                <br>
+                <br>
+                <a href="./forgot.html">forgot password</a>
+                <br>
+                <br>
+                <a href="./register.html">Register Here</a>
+            </form>
+
+        </fieldset>
+    </center>
+    
+</body>
+</html>
